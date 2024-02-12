@@ -1,0 +1,186 @@
+    body {
+     /* background-image: url(https://cdn.glitch.global/a0d9e35e-3463-446d-a431-0423ddfe8b71/bak.png?v=1706177656918);
+      background-repeat: no-repeat; */
+      background-color: rgb(70, 90, 290);
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+    }
+
+#viewport {
+  margin: 0;
+  overflow: hidden;
+}
+
+#refreshButton {
+      font-family: "botanika-mono-web", monospace;
+      font-weight: 800;
+      color: rgb(10, 10, 100);
+      position: absolute;
+      height: 60px;
+      width: 130px;
+      background-color: rgb(70, 90, 290);
+      border: 3px rgb(90, 110, 310) outset;
+      /*box-shadow: 5px 5px;*/
+      cursor: pointer;
+      margin-left: 1260px;
+      margin-top: 435px;
+      z-index: 9; 
+}
+
+#refreshButton:hover {
+      border: 3px rgb(30, 50, 240) inset;
+}
+
+
+
+     #cont {
+      position: absolute;
+      height: 638px;
+      width: 999px;
+      /*border: 3px solid black;
+      box-shadow: 5px 5px;*/
+      margin-top: 18px;
+      margin-left: 17.0px;
+}
+
+
+
+    #bg {
+      position: absolute;
+      height: 640px;
+      width: 1000px;
+      margin-top: 40px;
+      margin-left: 40px;
+      z-index: 5;
+    }
+    
+#webcam {
+      position: absolute;
+      height: 640px;
+      width: 1000px;
+      margin-top: 40px;
+      margin-left: 40px;
+      object-fit: cover;
+      transform: scaleX(-1);
+      border: none;
+      z-index: 2;
+}
+
+    .grid-container {
+      position: absolute; 
+      display: grid;
+      grid-template-columns: repeat(50, 20px);
+      grid-template-rows: repeat(50, 20px);
+      margin-top: 40px;
+      margin-left: 40px;
+      z-index: 6;
+    }
+
+    .grid-item {
+      width: 20px;
+      height: 20px;
+      /*border: 1px solid black;*/
+      z-index: 7;
+    }
+
+    #colorButton {
+      font-family: "botanika-mono-web", monospace;
+      font-weight: 800;
+      font-style: normal;
+      color: rgb(10, 10, 100);
+      position: absolute;
+      height: 60px;
+      width: 130px;
+      background-color: rgb(70, 90, 290);
+      border: 3px rgb(90, 110, 310) outset;
+    /*  box-shadow: 5px 5px;*/
+      cursor: pointer;
+      margin-left: 1100px;
+      margin-top: 435px;
+      z-index: 9; 
+
+    }
+#colorButton:hover {
+      border: 3px rgb(30, 50, 240) inset;
+}
+
+      #red {
+      position: fixed;
+      mix-blend-mode: multiply;
+      height: 640px;
+      width: 1000px;
+      top: 40px;
+      left: 40px;
+      z-index: 4;
+      }
+
+    #canvas {
+      position: fixed;
+      height: 640px;
+      width: 1000px;
+      top: 40px;
+      left: 40px;
+      z-index: 3;
+      transform: scaleX(-1);
+    }
+
+    #ruta {
+      position: fixed;
+     /* background-color: rgb(70, 90, 290);
+      border: 4px rgb(90, 110, 310) outset;*/
+      height: 676px;
+      width: 1036px;
+      top: 22px;
+      left: 22px;
+      z-index: 1;
+
+    }
+
+
+    #ram {
+      position: fixed;
+      top: 22px;
+      background-color: grey;
+      left: 1080px;
+      height: 676px;
+      width: 330px;
+      z-index: -1;
+      opacity: 0;
+    }
+
+    #gif {
+      position: fixed;
+      top: -100px;
+      left: 960px;
+      height: 800px;
+      z-index: 8;
+    }
+
+
+
+    #text {
+      position: fixed;
+      font-family: "botanika-mono-web", monospace;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 90%;
+      height: 500px;
+      width: 300px;
+      top: 100px;
+      left: 1100px;
+    
+    }
+
+    #text2 {
+      position: fixed;
+      font-family: "botanika-mono-web", monospace;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 90%;
+      height: 500px;
+      width: 330px;
+      top: 510px;
+      left: 1100px;
+    
+    }
