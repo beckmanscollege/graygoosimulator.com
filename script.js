@@ -54,7 +54,7 @@ refreshButton.onclick = function () {
 let imageIndex = 0; // Start with the first image
 const images = [
     "https://cdn.glitch.global/0cbf2b2c-b551-4c52-a321-0864339ea682/Bergbild.png?v=1707139526449",
-    "https://cdn.glitch.global/0cbf2b2c-b551-4c52-a321-0864339ea682/solenS.png?v=1707139530138",
+    "https://cdn.glitch.global/a511e069-3fd4-4001-b170-1287e84a047e/Asset%202.png?v=1707396897746",
     "https://cdn.glitch.global/0cbf2b2c-b551-4c52-a321-0864339ea682/flod.png?v=1707140320285",
 ];
 const cont = document.getElementById("bg");
